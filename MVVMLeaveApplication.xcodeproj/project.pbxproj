@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2831202525614DF8005B64D3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831202425614DF8005B64D3 /* AppCoordinator.swift */; };
+		28515BB02547F59E0042132A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28515BAF2547F59E0042132A /* Protocols.swift */; };
+		28515BB22547F6B30042132A /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28515BB12547F6B30042132A /* Enums.swift */; };
+		28515BB42547F7600042132A /* FormItemModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28515BB32547F7600042132A /* FormItemModels.swift */; };
+		28515BBD2547FC350042132A /* AcrossSessionsLeaveForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28515BBC2547FC350042132A /* AcrossSessionsLeaveForm.swift */; };
+		285ABE45253C1E3D00848250 /* CustomCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285ABE44253C1E3D00848250 /* CustomCellView.swift */; };
+		285ABE47253C1E8200848250 /* CustomCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 285ABE46253C1E8100848250 /* CustomCellView.xib */; };
+		285ABE49253D52C600848250 /* PickerInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 285ABE48253D52C600848250 /* PickerInputCell.xib */; };
+		285ABE4B253D549A00848250 /* Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285ABE4A253D549A00848250 /* Ext.swift */; };
+		285ABE4D253D564B00848250 /* DatePickerInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 285ABE4C253D564B00848250 /* DatePickerInputCell.xib */; };
+		285ABE4F253D589600848250 /* RadioButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 285ABE4E253D589600848250 /* RadioButtonView.xib */; };
+		285ABE51253D5C2A00848250 /* LeaveReasonInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 285ABE50253D5C2A00848250 /* LeaveReasonInputCell.xib */; };
+		285ABE53253D8C7200848250 /* LeaveCountDisplayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 285ABE52253D8C7200848250 /* LeaveCountDisplayCell.xib */; };
+		285ABE55253D9DCD00848250 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285ABE54253D9DCD00848250 /* RadioButton.swift */; };
+		285ABE57253D9E3200848250 /* CustomRadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285ABE56253D9E3200848250 /* CustomRadioButtonView.swift */; };
+		285ABE59253DA57300848250 /* LeaveCauseInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 285ABE58253DA57300848250 /* LeaveCauseInputCell.xib */; };
+		285C85DF253AC7B9002FB515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285C85DE253AC7B9002FB515 /* AppDelegate.swift */; };
+		285C85E1253AC7B9002FB515 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285C85E0253AC7B9002FB515 /* SceneDelegate.swift */; };
+		285C85E3253AC7B9002FB515 /* LeaveApplyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285C85E2253AC7B9002FB515 /* LeaveApplyScreen.swift */; };
+		285C85E8253AC7BC002FB515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285C85E7253AC7BC002FB515 /* Assets.xcassets */; };
+		285C85EB253AC7BC002FB515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285C85E9253AC7BC002FB515 /* LaunchScreen.storyboard */; };
+		285C85F3253ACB02002FB515 /* OnedayLeaveForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285C85F2253ACB02002FB515 /* OnedayLeaveForm.swift */; };
+		285C85F5253AFDB3002FB515 /* MultipleDaysLeaveForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285C85F4253AFDB3002FB515 /* MultipleDaysLeaveForm.swift */; };
+		285C85F7253B036E002FB515 /* LeaveFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285C85F6253B036E002FB515 /* LeaveFormViewModel.swift */; };
+		285C85F9253B1FEF002FB515 /* LeaveAppTblCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285C85F8253B1FEF002FB515 /* LeaveAppTblCells.swift */; };
+		28B0D1D2253B70150028CA51 /* LeaveApplyForm.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B0D1D1253B70150028CA51 /* LeaveApplyForm.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2831202425614DF8005B64D3 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		28515BAF2547F59E0042132A /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		28515BB12547F6B30042132A /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		28515BB32547F7600042132A /* FormItemModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormItemModels.swift; sourceTree = "<group>"; };
+		28515BBC2547FC350042132A /* AcrossSessionsLeaveForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcrossSessionsLeaveForm.swift; sourceTree = "<group>"; };
+		285ABE44253C1E3D00848250 /* CustomCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellView.swift; sourceTree = "<group>"; };
+		285ABE46253C1E8100848250 /* CustomCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellView.xib; sourceTree = "<group>"; };
+		285ABE48253D52C600848250 /* PickerInputCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerInputCell.xib; sourceTree = "<group>"; };
+		285ABE4A253D549A00848250 /* Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ext.swift; sourceTree = "<group>"; };
+		285ABE4C253D564B00848250 /* DatePickerInputCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePickerInputCell.xib; sourceTree = "<group>"; };
+		285ABE4E253D589600848250 /* RadioButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadioButtonView.xib; sourceTree = "<group>"; };
+		285ABE50253D5C2A00848250 /* LeaveReasonInputCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeaveReasonInputCell.xib; sourceTree = "<group>"; };
+		285ABE52253D8C7200848250 /* LeaveCountDisplayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeaveCountDisplayCell.xib; sourceTree = "<group>"; };
+		285ABE54253D9DCD00848250 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		285ABE56253D9E3200848250 /* CustomRadioButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRadioButtonView.swift; sourceTree = "<group>"; };
+		285ABE58253DA57300848250 /* LeaveCauseInputCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeaveCauseInputCell.xib; sourceTree = "<group>"; };
+		285C85DB253AC7B9002FB515 /* MVVMLeaveApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMLeaveApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		285C85DE253AC7B9002FB515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		285C85E0253AC7B9002FB515 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		285C85E2253AC7B9002FB515 /* LeaveApplyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveApplyScreen.swift; sourceTree = "<group>"; };
+		285C85E7253AC7BC002FB515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		285C85EA253AC7BC002FB515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		285C85EC253AC7BC002FB515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285C85F2253ACB02002FB515 /* OnedayLeaveForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnedayLeaveForm.swift; sourceTree = "<group>"; };
+		285C85F4253AFDB3002FB515 /* MultipleDaysLeaveForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleDaysLeaveForm.swift; sourceTree = "<group>"; };
+		285C85F6253B036E002FB515 /* LeaveFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveFormViewModel.swift; sourceTree = "<group>"; };
+		285C85F8253B1FEF002FB515 /* LeaveAppTblCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveAppTblCells.swift; sourceTree = "<group>"; };
+		28B0D1D1253B70150028CA51 /* LeaveApplyForm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeaveApplyForm.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		285C85D8253AC7B9002FB515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2831202225614D92005B64D3 /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				285C85DE253AC7B9002FB515 /* AppDelegate.swift */,
+				285C85E0253AC7B9002FB515 /* SceneDelegate.swift */,
+				285ABE4A253D549A00848250 /* Ext.swift */,
+				285C85E7253AC7BC002FB515 /* Assets.xcassets */,
+				285C85E9253AC7BC002FB515 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+		2831202325614DCC005B64D3 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				2831202425614DF8005B64D3 /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		28515BB72547FBB00042132A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28515BBB2547FC0A0042132A /* FormModels */,
+				28515BBA2547FBF70042132A /* FormItemModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28515BB82547FBBB0042132A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28515BBF2547FC700042132A /* Classfiles */,
+				28515BBE2547FC600042132A /* Xibs */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28515BB92547FBC90042132A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				285C85F6253B036E002FB515 /* LeaveFormViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		28515BBA2547FBF70042132A /* FormItemModel */ = {
+			isa = PBXGroup;
+			children = (
+				28515BB32547F7600042132A /* FormItemModels.swift */,
+				28515BB12547F6B30042132A /* Enums.swift */,
+				28515BAF2547F59E0042132A /* Protocols.swift */,
+			);
+			path = FormItemModel;
+			sourceTree = "<group>";
+		};
+		28515BBB2547FC0A0042132A /* FormModels */ = {
+			isa = PBXGroup;
+			children = (
+				285C85F2253ACB02002FB515 /* OnedayLeaveForm.swift */,
+				285C85F4253AFDB3002FB515 /* MultipleDaysLeaveForm.swift */,
+				28515BBC2547FC350042132A /* AcrossSessionsLeaveForm.swift */,
+			);
+			path = FormModels;
+			sourceTree = "<group>";
+		};
+		28515BBE2547FC600042132A /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				28515BC32547FCB50042132A /* CustomViewXibs */,
+				28515BC02547FC850042132A /* TblCells */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		28515BBF2547FC700042132A /* Classfiles */ = {
+			isa = PBXGroup;
+			children = (
+				28515BC22547FCA30042132A /* CustomViewClasses */,
+				28515BC12547FC970042132A /* CellClasses */,
+			);
+			path = Classfiles;
+			sourceTree = "<group>";
+		};
+		28515BC02547FC850042132A /* TblCells */ = {
+			isa = PBXGroup;
+			children = (
+				285ABE48253D52C600848250 /* PickerInputCell.xib */,
+				285ABE4C253D564B00848250 /* DatePickerInputCell.xib */,
+				285ABE50253D5C2A00848250 /* LeaveReasonInputCell.xib */,
+				285ABE52253D8C7200848250 /* LeaveCountDisplayCell.xib */,
+				285ABE58253DA57300848250 /* LeaveCauseInputCell.xib */,
+			);
+			path = TblCells;
+			sourceTree = "<group>";
+		};
+		28515BC12547FC970042132A /* CellClasses */ = {
+			isa = PBXGroup;
+			children = (
+				285C85F8253B1FEF002FB515 /* LeaveAppTblCells.swift */,
+			);
+			path = CellClasses;
+			sourceTree = "<group>";
+		};
+		28515BC22547FCA30042132A /* CustomViewClasses */ = {
+			isa = PBXGroup;
+			children = (
+				285ABE44253C1E3D00848250 /* CustomCellView.swift */,
+				285ABE56253D9E3200848250 /* CustomRadioButtonView.swift */,
+				285ABE54253D9DCD00848250 /* RadioButton.swift */,
+			);
+			path = CustomViewClasses;
+			sourceTree = "<group>";
+		};
+		28515BC32547FCB50042132A /* CustomViewXibs */ = {
+			isa = PBXGroup;
+			children = (
+				28B0D1D1253B70150028CA51 /* LeaveApplyForm.xib */,
+				285ABE46253C1E8100848250 /* CustomCellView.xib */,
+				285ABE4E253D589600848250 /* RadioButtonView.xib */,
+			);
+			path = CustomViewXibs;
+			sourceTree = "<group>";
+		};
+		28515BC42547FD830042132A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				285C85E2253AC7B9002FB515 /* LeaveApplyScreen.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		285C85D2253AC7B9002FB515 = {
+			isa = PBXGroup;
+			children = (
+				285C85DD253AC7B9002FB515 /* MVVMLeaveApplication */,
+				285C85DC253AC7B9002FB515 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		285C85DC253AC7B9002FB515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				285C85DB253AC7B9002FB515 /* MVVMLeaveApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		285C85DD253AC7B9002FB515 /* MVVMLeaveApplication */ = {
+			isa = PBXGroup;
+			children = (
+				2831202325614DCC005B64D3 /* Coordinators */,
+				28515BC42547FD830042132A /* ViewControllers */,
+				28515BB92547FBC90042132A /* ViewModel */,
+				28515BB82547FBBB0042132A /* View */,
+				28515BB72547FBB00042132A /* Models */,
+				2831202225614D92005B64D3 /* Supporting FIles */,
+				285C85EC253AC7BC002FB515 /* Info.plist */,
+			);
+			path = MVVMLeaveApplication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		285C85DA253AC7B9002FB515 /* MVVMLeaveApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285C85EF253AC7BC002FB515 /* Build configuration list for PBXNativeTarget "MVVMLeaveApplication" */;
+			buildPhases = (
+				285C85D7253AC7B9002FB515 /* Sources */,
+				285C85D8253AC7B9002FB515 /* Frameworks */,
+				285C85D9253AC7B9002FB515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVVMLeaveApplication;
+			productName = MVVMLeaveApplication;
+			productReference = 285C85DB253AC7B9002FB515 /* MVVMLeaveApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		285C85D3253AC7B9002FB515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Bunny Bhargav";
+				TargetAttributes = {
+					285C85DA253AC7B9002FB515 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 285C85D6253AC7B9002FB515 /* Build configuration list for PBXProject "MVVMLeaveApplication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 285C85D2253AC7B9002FB515;
+			productRefGroup = 285C85DC253AC7B9002FB515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				285C85DA253AC7B9002FB515 /* MVVMLeaveApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		285C85D9253AC7B9002FB515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285C85EB253AC7BC002FB515 /* LaunchScreen.storyboard in Resources */,
+				285ABE49253D52C600848250 /* PickerInputCell.xib in Resources */,
+				285ABE47253C1E8200848250 /* CustomCellView.xib in Resources */,
+				285ABE4F253D589600848250 /* RadioButtonView.xib in Resources */,
+				285ABE59253DA57300848250 /* LeaveCauseInputCell.xib in Resources */,
+				285ABE53253D8C7200848250 /* LeaveCountDisplayCell.xib in Resources */,
+				285C85E8253AC7BC002FB515 /* Assets.xcassets in Resources */,
+				285ABE4D253D564B00848250 /* DatePickerInputCell.xib in Resources */,
+				285ABE51253D5C2A00848250 /* LeaveReasonInputCell.xib in Resources */,
+				28B0D1D2253B70150028CA51 /* LeaveApplyForm.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		285C85D7253AC7B9002FB515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285C85F9253B1FEF002FB515 /* LeaveAppTblCells.swift in Sources */,
+				285C85F5253AFDB3002FB515 /* MultipleDaysLeaveForm.swift in Sources */,
+				285C85E3253AC7B9002FB515 /* LeaveApplyScreen.swift in Sources */,
+				28515BB02547F59E0042132A /* Protocols.swift in Sources */,
+				2831202525614DF8005B64D3 /* AppCoordinator.swift in Sources */,
+				28515BB42547F7600042132A /* FormItemModels.swift in Sources */,
+				285C85F3253ACB02002FB515 /* OnedayLeaveForm.swift in Sources */,
+				285C85DF253AC7B9002FB515 /* AppDelegate.swift in Sources */,
+				285ABE4B253D549A00848250 /* Ext.swift in Sources */,
+				28515BB22547F6B30042132A /* Enums.swift in Sources */,
+				285ABE45253C1E3D00848250 /* CustomCellView.swift in Sources */,
+				285ABE55253D9DCD00848250 /* RadioButton.swift in Sources */,
+				285C85F7253B036E002FB515 /* LeaveFormViewModel.swift in Sources */,
+				285ABE57253D9E3200848250 /* CustomRadioButtonView.swift in Sources */,
+				28515BBD2547FC350042132A /* AcrossSessionsLeaveForm.swift in Sources */,
+				285C85E1253AC7B9002FB515 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		285C85E9253AC7BC002FB515 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				285C85EA253AC7BC002FB515 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		285C85ED253AC7BC002FB515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		285C85EE253AC7BC002FB515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		285C85F0253AC7BC002FB515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MVVMLeaveApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bunny.flourist.MVVMLeaveApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		285C85F1253AC7BC002FB515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MVVMLeaveApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bunny.flourist.MVVMLeaveApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		285C85D6253AC7B9002FB515 /* Build configuration list for PBXProject "MVVMLeaveApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285C85ED253AC7BC002FB515 /* Debug */,
+				285C85EE253AC7BC002FB515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285C85EF253AC7BC002FB515 /* Build configuration list for PBXNativeTarget "MVVMLeaveApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285C85F0253AC7BC002FB515 /* Debug */,
+				285C85F1253AC7BC002FB515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 285C85D3253AC7B9002FB515 /* Project object */;
+}

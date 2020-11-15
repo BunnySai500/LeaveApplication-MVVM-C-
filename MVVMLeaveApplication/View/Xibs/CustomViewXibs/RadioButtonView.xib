@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomRadioButtonView" customModule=" ">
+            <connections>
+                <outletCollection property="radioBtns" destination="SzM-zK-FcQ" collectionClass="NSMutableArray" id="P26-Y1-B4L"/>
+                <outletCollection property="radioBtns" destination="hsw-wW-m3o" collectionClass="NSMutableArray" id="xIx-YZ-iqP"/>
+                <outletCollection property="radioBtns" destination="Zfc-1u-j6c" collectionClass="NSMutableArray" id="Vcz-gJ-0xY"/>
+                <outletCollection property="radioBtns" destination="CXK-id-IkR" collectionClass="NSMutableArray" id="T2j-iR-yYj"/>
+                <outletCollection property="radioBtns" destination="hC9-2W-VVe" collectionClass="NSMutableArray" id="8tt-c0-Gna"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Dm4-aX-x2r">
+            <rect key="frame" x="0.0" y="0.0" width="431" height="163"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="clq-Nu-JNH">
+                    <rect key="frame" x="73" y="10" width="285" height="45"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SzM-zK-FcQ" customClass="RadioButton" customModule="MVVMLeaveApplication" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="75" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="75" id="3qI-KP-t27"/>
+                                <constraint firstAttribute="height" constant="45" id="hvI-HQ-VIF"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="radioBtnTapped:" destination="-1" eventType="touchUpInside" id="ErU-9w-cSP"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsw-wW-m3o" customClass="RadioButton" customModule="MVVMLeaveApplication" customModuleProvider="target">
+                            <rect key="frame" x="105" y="0.0" width="75" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="75" id="YSq-Qb-RSW"/>
+                                <constraint firstAttribute="height" constant="45" id="bat-rL-axD"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="radioBtnTapped:" destination="-1" eventType="touchUpInside" id="Hak-it-XVz"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zfc-1u-j6c" customClass="RadioButton" customModule="MVVMLeaveApplication" customModuleProvider="target">
+                            <rect key="frame" x="210" y="0.0" width="75" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="dee-y5-Qdi"/>
+                                <constraint firstAttribute="width" constant="75" id="ejm-lV-fha"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="radioBtnTapped:" destination="-1" eventType="touchUpInside" id="hBQ-NB-qTf"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="GwA-nk-OHs"/>
+                        <constraint firstAttribute="width" constant="285" id="p4W-Vf-8AQ"/>
+                    </constraints>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Ixq-ix-IHw">
+                    <rect key="frame" x="103" y="80" width="225" height="45"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CXK-id-IkR" customClass="RadioButton" customModule="MVVMLeaveApplication" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="0DV-if-97a"/>
+                                <constraint firstAttribute="height" constant="45" id="qZh-To-V8k"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="radioBtnTapped:" destination="-1" eventType="touchUpInside" id="589-as-Kcz"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hC9-2W-VVe" customClass="RadioButton" customModule="MVVMLeaveApplication" customModuleProvider="target">
+                            <rect key="frame" x="125" y="0.0" width="100" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="0Mj-6U-b7k"/>
+                                <constraint firstAttribute="height" constant="45" id="VbM-Qo-fXP"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="radioBtnTapped:" destination="-1" eventType="touchUpInside" id="c1x-mA-Bi5"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="Xqx-kK-N3p"/>
+                        <constraint firstAttribute="height" constant="45" id="pRl-9L-s7D"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="clq-Nu-JNH" firstAttribute="centerX" secondItem="klC-Go-Pn1" secondAttribute="centerX" id="H0i-0Q-wQP"/>
+                <constraint firstItem="Ixq-ix-IHw" firstAttribute="centerX" secondItem="clq-Nu-JNH" secondAttribute="centerX" id="MNN-xj-DsZ"/>
+                <constraint firstItem="clq-Nu-JNH" firstAttribute="top" secondItem="Dm4-aX-x2r" secondAttribute="top" constant="10" id="PxB-yd-8oj"/>
+                <constraint firstItem="Ixq-ix-IHw" firstAttribute="top" secondItem="clq-Nu-JNH" secondAttribute="bottom" constant="25" id="dNe-Yy-OLE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="klC-Go-Pn1"/>
+            <point key="canvasLocation" x="-381.8840579710145" y="149.66517857142856"/>
+        </view>
+    </objects>
+</document>
